@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-# Author: (hexue@4paradigm.com)
+# Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-17 16:27:29
 # File Name: cloneGraph.py

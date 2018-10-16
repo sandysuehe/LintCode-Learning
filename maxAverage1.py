@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-# Author: (hexue@4paradigm.com)
+# Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-28 13:13:52
 # File Name: maxAverage.py

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-# Author: (hexue@4paradigm.com)
+# Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-23 14:23:40
 # File Name: TrieSerialize.py

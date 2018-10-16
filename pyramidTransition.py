@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-# Author: (hexue@4paradigm.com)
+# Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-09 13:51:31
 # File Name: pyramidTransition.py
