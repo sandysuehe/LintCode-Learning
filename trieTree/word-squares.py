@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-22 18:04:57
 # File Name: word-squares.py
-# Description: 
+# Description: Word Squares 单词矩阵 
+# LintCode: https://www.lintcode.com/problem/word-squares
 #########################################################################
 class Solution:
     def wordSquares(self, words):

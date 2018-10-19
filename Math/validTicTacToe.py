@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 17:54:01
 # File Name: validTicTacToe.py
-# Description: 
+# Description: Valid Tic-Tac-Toe State 验证井字棋状态 
+# LintCode: https://www.lintcode.com/problem/valid-tic-tac-toe-state/
 #########################################################################
 def validTicTacToe(board):
     x_win = False

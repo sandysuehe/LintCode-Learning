@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 12:17:42
 # File Name: validWordSquare.py
-# Description: 
+# Description: Valid Word Square 有效单词词广场
+# LintCode: https://www.lintcode.com/problem/valid-word-square/
 #########################################################################
 def validWordSquare(words):
     m = len(words)
@@ -15,7 +16,7 @@ def validWordSquare(words):
         col_word = ""
         for j in range(0, n):
             col_word += words[i][j]
-        if col_word != words[i]:
+        if col_word != words[i]: #判断行单词和列单词是否相等
             return False
     return True 
 

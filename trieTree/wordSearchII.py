@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-23 10:20:58
 # File Name: wordSearchII.py
-# Description: 
+# Description: Word Search II 单词搜索 II
+# LintCode: https://www.lintcode.com/problem/word-search-ii
 #########################################################################
 class Solution:
     def wordSearchII(self, board, words):

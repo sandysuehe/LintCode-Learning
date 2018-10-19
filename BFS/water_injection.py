@@ -1,5 +1,16 @@
-def waterInjection(matrix, r, c):
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-07 16:48:48
+# File Name: Vector2D.py
+# Description: Matrix Water Injection 矩阵注水 
+# LintCode: https://www.lintcode.com/problem/matrix-water-injection/
+#########################################################################
+# 思路: DFS
+#########################################################################
 
+def waterInjection(matrix, r, c):
     m = len(matrix)
     n = len(matrix[0])
     visited = [[False for j in range(n)] for i in range(m)]
