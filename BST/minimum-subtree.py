@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: minimum-subtree.py
+# Description: 最小子树 
+# LintCode: https://www.lintcode.com/problem/minimum-subtree/
+#########################################################################
 class TreeNode:
     def __init__(self, val):
         self.val = val

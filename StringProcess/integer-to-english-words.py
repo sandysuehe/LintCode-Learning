@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 12:42:04
 # File Name: integer-to-english-words.py
-# Description: 
+# Description:  Integer to English Words
+# LintCode: https://www.lintcode.com/problem/integer-to-english-words/
 #########################################################################
 IN_TWENTY = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
 IN_HUNDRED = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"]

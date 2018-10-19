@@ -1,4 +1,12 @@
-# https://www.lintcode.com/problem/origami
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: origami.py
+# Description: 折纸
+# LintCode: https://www.lintcode.com/problem/origami
+#########################################################################
 def getString(n): 
     node_len = pow(2, n) - 1
     ans = []

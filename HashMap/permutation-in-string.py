@@ -4,7 +4,9 @@
 #########################################################################
 # Created Time: 2018-10-16 15:42:06
 # File Name: permutation-in-string.py
-# Description: 
+# Description: Permutation in String 
+# LintCode: https://www.lintcode.com/problem/permutation-in-string/
+# 思路: Sliding Window
 #########################################################################
 def checkInclusion(s1, s2):
     if not s1 or not s2:

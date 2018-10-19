@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: swap-nodes-in-pairs.py
+# Description: 两两交换链表中的节点
+# LintCode: https://www.lintcode.com/problem/swap-nodes-in-pairs/
+#########################################################################
 class ListNode(object):
     def __init__(self, val, next=None):
         self.val = val

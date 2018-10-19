@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-06 16:54:28
 # File Name: mergeKLists.py
-# Description: 
+# Description: Merge k Sorted Lists 合并k个有序链表 
+# LintCode: https://www.lintcode.com/problem/merge-k-sorted-lists/
 #########################################################################
 import heapq
 class ListNode(object):

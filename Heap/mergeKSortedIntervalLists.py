@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-07 14:36:17
 # File Name: mergeKSortedIntervalLists.py
-# Description: 
+# Description:  合并K个排序间隔列表
+# LintCode: https://www.lintcode.com/problem/merge-k-sorted-interval-lists/
 #########################################################################
 class Interval(object):
     def __init__(self, start, end):

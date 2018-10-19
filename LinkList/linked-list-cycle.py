@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-15 14:47:04
 # File Name: linked-list-cycle.py
-# Description: 
+# Description: 带环链表 
+# LintCode: https://www.lintcode.com/problem/linked-list-cycle/description
 #########################################################################
 class ListNode(object):
 
