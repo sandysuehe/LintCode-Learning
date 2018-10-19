@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 16:43:17
 # File Name: threeSumSmaller.py
-# Description: 
+# Description: 三数之和小于目标数
+# LintCode: https://www.lintcode.com/problem/3sum-smaller/
 #########################################################################
 def threeSumSmaller(nums, target):
     if len(nums) < 3:

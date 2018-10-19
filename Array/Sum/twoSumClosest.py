@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 17:28:46
 # File Name: twoSumClosest.py
-# Description: 
+# Description: 两数和的最接近值
+# LintCode: https://www.lintcode.com/problem/two-sum-closest-to-target/
 #########################################################################
 def twoSumClosest(nums, target):
     nums = sorted(nums)

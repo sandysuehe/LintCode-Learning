@@ -1,4 +1,12 @@
-#https://www.lintcode.com/problem/three-distinct-factors
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: three-distinct-factors.py
+# Description: 3个不同的因子 
+# LintCode: https://www.lintcode.com/problem/three-distinct-factors
+#########################################################################
 import math
 def isThreeDisctFactors(n):
     if n < 2:

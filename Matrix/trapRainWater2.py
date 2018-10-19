@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 12:47:55
 # File Name: trapRainWater2.py
-# Description: 
+# Description: Trapping Rain Water II 接雨水 II 
+# LintCode: https://www.lintcode.com/problem/trapping-rain-water-ii/
 #########################################################################
 def trapRainWater(heightMap):
     if len(heightMap) == 0:

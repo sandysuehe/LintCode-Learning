@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 15:59:49
 # File Name: threeSum.py
-# Description: 
+# Description: 三数之和
+# LintCode: https://www.lintcode.com/problem/3sum/
 #########################################################################
 def threeSum(nums):
     res = []

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 10:23:51
 # File Name: longest-path-on-the-tree.py
-# Description: 
+# Description: 树上最长路径
+# LintCode: https://www.lintcode.com/problem/longest-path-on-the-tree/ 
 #########################################################################
 class Solution:
     def longestPath(self, n, starts, ends, lens):

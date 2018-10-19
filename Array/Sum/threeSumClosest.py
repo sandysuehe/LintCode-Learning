@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 17:08:31
 # File Name: threeSumClosest.py
-# Description: 
+# Description: 最接近的三数之和
+# LintCode: https://www.lintcode.com/problem/3sum-closest/
 #########################################################################
 def threeSumClosest(nums, target):
     nums = sorted(nums)

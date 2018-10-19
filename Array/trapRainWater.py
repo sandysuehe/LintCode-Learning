@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 11:43:51
 # File Name: trapRainWater.py
-# Description: 
+# Description:  
+# LintCode: https://www.lintcode.com/problem/trapping-rain-water/
 #########################################################################
 def trapRainWater(heights):
     max_left = 0
