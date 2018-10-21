@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-16 15:55:52
 # File Name: findOrder.py
-# Description: 
+# Description: 安排课程 
+# LintCode: https://www.lintcode.com/problem/course-schedule-ii/ 
 #########################################################################
 def findOrder(n, prerequisites):
 

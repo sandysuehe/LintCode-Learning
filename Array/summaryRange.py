@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-29 15:25:03
 # File Name: summaryRange.py
-# Description: 
+# Description: Summary Ranges 总结区间 
+# LintCode: https://www.lintcode.com/problem/summary-ranges/
 #########################################################################
 def summaryRange(intervals):
     n = len(intervals)

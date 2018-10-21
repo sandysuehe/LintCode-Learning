@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: number-of-islands.py
+# Description: 岛屿的个数
+# LintCode: https://www.lintcode.com/problem/number-of-islands/
+#########################################################################
 import Queue
 class Solution:
     def numIslands(self, grid):

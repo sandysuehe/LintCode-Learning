@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 15:10:11
 # File Name: plusOne.py
-# Description: 
+# Description: . 加一
+# LintCode: https://www.lintcode.com/problem/plus-one/
 #########################################################################
 def plusOne(nums):
     n = len(nums)

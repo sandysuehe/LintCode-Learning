@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-14 14:05:08
 # File Name: slidingPuzzle.py
-# Description: 
+# Description: Jigsaw Puzzle 拼图游戏 
+# Lint: http://www.cnblogs.com/grandyang/p/4794251.html
 #########################################################################
 def jigsawPuzzle(board):
     # 使用最普通的BFS遍历方式，检查上下左右四个方向

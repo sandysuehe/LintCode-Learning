@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-16 17:11:04
 # File Name: scheduleCourse.py
-# Description: 
+# Description: 课程表 III
+# LintCode: https://www.lintcode.com/problem/course-schedule-iii/
 #########################################################################
 def scheduleCourse(courses):
     cur_time = 0

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-29 10:32:04
 # File Name: rangeModule.py
-# Description: 
+# Description: 范围模块 
+# LintCode: https://www.lintcode.com/problem/range-module/
 #########################################################################
 class Solution(object):
 

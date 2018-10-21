@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 15:25:59
 # File Name: plusOneLink.py
-# Description: 
+# Description: 加一链表 
+# LintCode: https://www.lintcode.com/problem/plus-one-linked-list/ 
 #########################################################################
 class ListNode(object):
     def __init__(self, val, next=None):

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-07 18:36:52
 # File Name: sequenceReconstruction.py
-# Description: 
+# Description: Sequence Reconstruction 序列重建 
+# LintCode: https://www.lintcode.com/problem/sequence-reconstruction/
 #########################################################################
 def sequenceReconstruction(org, seqs):
     if not seqs:
@@ -14,13 +15,10 @@ def sequenceReconstruction(org, seqs):
     graph = {i:[] for i in range(1,n+1)}
     inDegree = {}
     build(graph, inDegree, seqs)
-    print graph
-    print inDegree
     return topoSort(graph, inDegree, n, org)
 
 def build(graph, inDegree, seqs):
     for seq in seqs:
-        print "::::", seq, seq[0]
         for i in range(0, len(seq)):
             if i == 0:
                 if seq[i] in inDegree:
@@ -53,8 +51,6 @@ def topoSort(graph, inDegree, n, org):
             inDegree[p_node] -= 1
             if inDegree[p_node] == 0:
                 queue.put(p_node)
-    print res
-    print queue.qsize()
     if queue.qsize() > 1:
         return False
     return len(res) == n and res == org

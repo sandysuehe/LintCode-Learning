@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-27 18:57:19
 # File Name: fibonacci.py
-# Description: 
+# Description:  斐波纳契数列 
+# LintCode: https://www.lintcode.com/problem/fibonacci/
 #########################################################################
 def fibonacci(n):
     n1 = 0

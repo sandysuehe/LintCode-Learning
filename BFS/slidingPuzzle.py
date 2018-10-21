@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-14 14:05:08
 # File Name: slidingPuzzle.py
-# Description: 
+# Description: Sliding Puzzle 滑动拼图
+# LintCode: https://www.lintcode.com/problem/sliding-puzzle/
 #########################################################################
 def slidingPuzzle(board):
     import Queue
@@ -27,7 +28,6 @@ def slidingPuzzle(board):
     queue.put(start)
 
     while not queue.empty():
-        #for i in range(queue.qsize()-1, -1, -1):
         cur = queue.get()
         if cur == target:
             print cur

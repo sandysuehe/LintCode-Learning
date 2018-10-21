@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-16 16:27:51
 # File Name: canFinish.py
-# Description: 
+# Description: 课程表
+# LintCode: https://www.lintcode.com/problem/course-schedule/
 #########################################################################
 def canFinish(numCourses, prerequisites):
     graph = {i:[] for i in range(numCourses)}

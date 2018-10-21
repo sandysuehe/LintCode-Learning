@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-10 10:26:07
 # File Name: judgeSquareSum.py
-# Description: 
+# Description: Sum of Square Numbers 平方数之和 
+# LintCode: https://www.lintcode.com/problem/sum-of-square-numbers/ 
 #########################################################################
 import math
 

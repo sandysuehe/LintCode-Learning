@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-14 14:05:08
 # File Name: slidingPuzzle.py
-# Description: 
+# Description: Jigsaw Puzzle 拼图游戏 
+# Lint: http://www.cnblogs.com/grandyang/p/4794251.html
 #########################################################################
 def jigsawPuzzle(board):
     import Queue

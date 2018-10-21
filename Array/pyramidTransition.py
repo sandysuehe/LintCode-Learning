@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-09 13:51:31
 # File Name: pyramidTransition.py
-# Description: 
+# Description: 金字塔转换矩阵
+# LintCode: https://www.lintcode.com/problem/pyramid-transition-matrix/ 
 #########################################################################
 class Solution(object):
     def recursive(self, cur, above, hash_set):

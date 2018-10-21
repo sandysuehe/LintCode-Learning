@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: symmetric-tree.py
+# Description: Symmetric Tree 判断对称树 
+# LintCode: https://www.lintcode.com/problem/symmetric-tree/
+#########################################################################
 class TreeNode:
     def __init__(self, val):
         self.val = val

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-14 12:42:43
 # File Name: ipToCIDR.py
-# Description: 
+# Description: IP to CIDR 将IP地址转为CIDR无类别域间路由 
+# Lint: http://www.cnblogs.com/grandyang/p/8440087.html
 #########################################################################
 import math
 def convert(x, step):

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-07 18:36:52
 # File Name: sequenceReconstruction.py
-# Description: 
+# Description: Sequence Reconstruction 序列重建 
+# LintCode: https://www.lintcode.com/problem/sequence-reconstruction/
 #########################################################################
 def sequenceReconstruction(org, seqs):
     from collections import defaultdict

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-08 11:31:24
 # File Name: pourWater.py
-# Description: 
+# Description:  Pour Water
+# LintCode: https://www.lintcode.com/problem/pour-water/
 #########################################################################
 def pourWater(heights, V, K):
     for i in range(0, V):

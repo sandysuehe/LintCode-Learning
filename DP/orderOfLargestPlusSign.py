@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-09 19:49:44
 # File Name: orderOfLargestPlusSign.py
-# Description: 
+# Description: Largest Plus Sign 最大的加型符号 
+# LintCode: https://www.lintcode.com/problem/largest-plus-sign/  
 #########################################################################
 def orderOfLargestPlusSign(N, mines):
     res = 0

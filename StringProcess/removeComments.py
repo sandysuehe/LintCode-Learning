@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 16:44:34
 # File Name: removeComments.py
-# Description: 
+# Description: 删除注释 
+# LintCode: https://www.lintcode.com/problem/remove-comments/
 #########################################################################
 def removeComments1(source):
     if not source:

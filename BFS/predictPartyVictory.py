@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 18:58:07
 # File Name: predictPartyVictory.py
-# Description: 
+# Description: Dota2 Senate 刀塔二参议院 
+# LintCode: https://www.lintcode.com/problem/dota2-senate/
 #########################################################################
 def predictPartyVictory(senate):
     n = len(senate)
