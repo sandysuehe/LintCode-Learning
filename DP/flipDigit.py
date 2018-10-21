@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: flipDigit.py
+# Description: Digital Flip 数字翻转 
+# LintCode: https://www.lintcode.com/problem/digital-flip/
+#########################################################################
 def flipDigit(nums):
     n = len(nums)
     dp = [0] * n

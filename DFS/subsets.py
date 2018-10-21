@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-07-26 18:04:32
-# File Name: dfs.py
-# Description: 
+# File Name: subsets.py
+# Description: 子集
+# LintCode: https://www.lintcode.com/problem/subsets/
 #########################################################################
 class Solution(object):
     def search(self, nums, temp_list, index):

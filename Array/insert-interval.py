@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-28 16:51:20
-# File Name: merge.py
-# Description: 
+# File Name: insert-interval.py
+# Description: Insert Interval 插入区间 
+# LintCode: https://www.lintcode.com/problem/insert-interval/
 #########################################################################
 class Interval(object):
  def __init__(self, start, end):

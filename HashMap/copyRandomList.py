@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-17 17:00:21
 # File Name: copyRandomList.py
-# Description: 
+# Description: Copy List with Random Pointer 拷贝带有随机指针的链表 
+# LintCode: https://www.lintcode.com/problem/copy-list-with-random-pointer/
 #########################################################################
 class RandomListNode:
     def __init__(self, x):

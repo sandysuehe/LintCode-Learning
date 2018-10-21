@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-13 19:05:54
-# File Name: fullJustify.py
-# Description: 
+# File Name: text-justification.py
+# Description: Text Justification 
+# LintCode: https://www.lintcode.com/problem/text-justification/
 #########################################################################
 def fullJustify(words, maxWidth):
     res = []

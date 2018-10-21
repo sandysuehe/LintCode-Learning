@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 10:56:17
 # File Name: findUnsortedSubarray.py
-# Description: 
+# Description: Shortest Unsorted Continuous Subarray 最短无序连续子数组 
+# LintCode: https://www.lintcode.com/problem/shortest-unsorted-continuous-subarray/
 #########################################################################
 def findUnsortedSubarray(nums):
     left = 0

@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-09 18:33:04
 # File Name: evalRPN.py
-# Description: 
+# Description: 逆波兰表达式求值
+# LintCode: https://www.lintcode.com/problem/evaluate-reverse-polish-notation/
 #########################################################################
 def evalRPN(s):
     stack = []

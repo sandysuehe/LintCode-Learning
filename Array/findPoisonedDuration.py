@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 17:46:31
 # File Name: findPoisonedDuration.py
-# Description: 
+# Description: Teemo Attacking 提莫攻击 
+# LintCode: https://www.lintcode.com/problem/teemo-attacking/
 #########################################################################
 def findPoisonedDuration(timeSeries, duration):
     if len(timeSeries) == 0:

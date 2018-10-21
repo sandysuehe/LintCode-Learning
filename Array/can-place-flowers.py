@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-28 18:02:23
 # File Name: canPlaceFlowers.py
-# Description: 
+# Description: Can Place Flowers 能否放置花 
+# LintCode: https://www.lintcode.com/problem/can-place-flowers/
 #########################################################################
 def canPlaceFlowers(flowerbed, m):
     n = len(flowerbed)

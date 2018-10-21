@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 13:38:16
 # File Name: canMeasureWater.py
-# Description: 
+# Description: Water and Jug Problem 水罐问题 
+# LintCode: https://www.lintcode.com/problem/water-and-jug-problem/ 
 #########################################################################
 def canMeasureWater(x, y, z):
     if z == 0:

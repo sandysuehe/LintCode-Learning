@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-08 17:32:20
 # File Name: calculate.py
-# Description: 
+# Description: Basic Calculator II
+# LintCode: https://www.lintcode.com/problem/basic-calculator-ii/
 #########################################################################
 def calculate(s):
     res = 0

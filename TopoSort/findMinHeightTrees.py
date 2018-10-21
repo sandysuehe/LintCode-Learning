@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-17 14:38:13
 # File Name: findMinHeightTrees.py
-# Description: 
+# Description: Minimum Height Trees 最小高度树 
+# LintCode: https://www.lintcode.com/problem/minimum-height-trees/
 #########################################################################
 def findMinHeightTrees(n, edges):
     if n == 1:

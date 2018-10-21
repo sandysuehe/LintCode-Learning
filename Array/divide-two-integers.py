@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-28 16:01:15
-# File Name: divide.py
-# Description: 
+# File Name: divide-two-integers.py
+# Description: 两个整数相除
+# LintCode: https://www.lintcode.com/problem/divide-two-integers/ 
 #########################################################################
 def divide(dividend, divisor):
     ans = 0

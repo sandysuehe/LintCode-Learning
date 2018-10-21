@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-22 13:11:51
-# File Name: MapSum.py
-# Description: 
+# File Name: map-sum-pairs.py
+# Description: 映射配对之和
+# LintCode: https://www.lintcode.com/problem/map-sum-pairs/
 #########################################################################
 class TrieNode(object):
     def __init__(self):

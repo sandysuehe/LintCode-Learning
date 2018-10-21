@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-15 14:52:21
 # File Name: maxArea.py
-# Description: 
+# Description: Container With Most Water 装最多水的容器  
+# LintCode: https://www.lintcode.com/problem/container-with-most-water/
 #########################################################################
 def maxArea(height):
     res = 0

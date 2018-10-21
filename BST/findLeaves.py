@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-08-22 13:11:51
+# File Name: findLeaves.py
+# Description: Find Leaves of Binary Tree 找二叉树的叶节点 
+# LintCode: https://www.lintcode.com/problem/find-leaves-of-binary-tree/
+#########################################################################
 class TreeNode:
     def __init__(self, val):
         self.val = val

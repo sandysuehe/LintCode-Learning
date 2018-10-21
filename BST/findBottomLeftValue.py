@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-10-16 14:14:17
 # File Name: findBottomLeftValue.py
-# Description: 
+# Description: Find Bottom Left Tree Value 寻找最左下树结点的值 
+# LintCode: https://www.lintcode.com/problem/find-bottom-left-tree-value/
 #########################################################################
 class TreeNode:
     def __init__(self, val):

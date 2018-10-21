@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-20 15:36:38
 # File Name: boggleGame.py
-# Description: 
+# Description:  Boggle Game 拼字游戏 
+# LintCode: https://www.lintcode.com/problem/boggle-game/
 #########################################################################
 class Solution(object):
     def boggleGame(self, board, words):

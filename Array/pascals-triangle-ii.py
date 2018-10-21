@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-27 17:39:35
-# File Name: getRow.py
-# Description: 
+# File Name: pascals-triangle-ii.py
+# Description: Pascal's Triangle II 杨辉三角之二 
+# LintCode: https://www.lintcode.com/problem/pascals-triangle-ii/
 #########################################################################
 def getRow(n):
     res = []

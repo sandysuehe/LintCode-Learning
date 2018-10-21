@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-22 14:34:39
 # File Name: WordDictionary.py
-# Description: 
+# Description: 单词的添加与查找 
+# LintCode: https://www.lintcode.com/problem/add-and-search-word/
 #########################################################################
 class TrieNode(object):
     def __init__(self):

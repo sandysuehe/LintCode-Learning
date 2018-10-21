@@ -3,8 +3,9 @@
 # Author: (sandysuehe@gmail.com)
 #########################################################################
 # Created Time: 2018-08-28 13:13:52
-# File Name: maxAverage.py
-# Description: 
+# File Name: maximum-average-subarray-ii.py
+# Description: 最大平均值子数组 II
+# LintCode: https://www.lintcode.com/problem/maximum-average-subarray-ii/
 #########################################################################
 def maxAverage(nums, k):
     csum = [0]

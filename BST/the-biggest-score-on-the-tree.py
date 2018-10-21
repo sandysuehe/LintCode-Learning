@@ -4,7 +4,8 @@
 #########################################################################
 # Created Time: 2018-08-08 12:08:49
 # File Name: getMaxScore.py
-# Description: 
+# Description: The Biggest Score On The Tree 树上最大得分 
+# LintCode: https://www.lintcode.com/problem/the-biggest-score-on-the-tree/
 #########################################################################
 class Solution(object):
     def dfs(self, x_point, edges, scores, visited, temp_score):
