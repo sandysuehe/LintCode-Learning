@@ -8,25 +8,16 @@
 # LintCode: https://www.lintcode.com/problem/missing-ranges/ 
 #########################################################################
 def findMissingRanges(nums, lower, upper):
-    n = len(nums)
     ans = []
+    nums.insert(0, lower-1)
+    nums.append(upper+1)
+    n = len(nums)
 
-    left = lower
-    for i in range(0, n+1):
-        if i < n and nums[i] <= upper:
-            right = nums[i]
-        else:
-            right = upper + 1
-
-        if left == right:
-            left += 1
-        elif right > left:
-            if right - left == 1:
-                ans.append(str(left))
-            else:
-                ans.append("{0}->{1}".format(left, right-1))
-
-            left = right + 1
+    for i in range(0, n-1):
+        if nums[i+1] - nums[i] > 2:
+            ans.append("{0}->{1}".format(nums[i]+1, nums[i+1]-1))
+        elif nums[i+1] - nums[i] == 2:
+            ans.append(str(nums[i]+1))
     return ans
 
 
