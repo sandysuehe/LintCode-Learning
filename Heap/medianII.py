@@ -4,7 +4,7 @@
 #########################################################################
 # Created Time: 2018-08-15 15:59:49
 # File Name: find-median-from-data-stream.py
-# Description: 数据流中位数
+# Description: 数据流中位数 Find Median from Data Stream
 # LintCode: https://www.lintcode.com/problem/find-median-from-data-stream/
 #########################################################################
 def medianII(nums): 
