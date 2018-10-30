@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+# Author: (sandysuehe@gmail.com)
+#########################################################################
+# Created Time: 2018-10-26 14:37:10
+# File Name: word-break-ii.py
+# Description: word-break-ii 
+# LintCode: https://www.lintcode.com/problem/word-break-ii/
+#########################################################################
+class Solution:
+    def wordBreak(self, s, wordDict):
+        self.visited = {}
+        return self.dfs(s, wordDict)
+    
+    def dfs(self, s, wordDict):
+        if s in self.visited:          # 如果s已被访问过，则返回s在visited中的val
+            return self.visited[s]
+    
+        if len(s) == 0:           # 如果s为空，返回[]
+            return []
+    
+        ans = []
+    
+        for word in wordDict:
+            if s[0:len(word)] != word: 
+                continue
+    
+            post_ans  = self.dfs(s[len(word):], wordDict)
+            #print word, s[0:len(word)], post_ans
+    
+            for post in post_ans:
+                if len(post) == 0:
+                    ans.append(word+post)
+                else:
+                    ans.append(word+" "+post)
+    
+        self.visited[s] = ans
+    
+        return ans 
+
+s = "lintcode"
+wordDict = ["de", "ding", "co", "code", "lint"]
+obj = Solution()
+print obj.wordBreak(s, wordDict)
+# vim: set noexpandtab ts=4 sts=4 sw=4 :
